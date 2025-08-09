@@ -53,7 +53,7 @@ export default class Akinator {
     this.step_last_proposition = '';
     this.guessCount = 0;
     this.childMode = childMode === true;
-    this.uri = `https://${this.region}.akinator.com`;
+    this.uri = `https://cors.caliph.my.id/https://${this.region}.akinator.com`;
 
     if (proxyOptions) {
       this.config = {
